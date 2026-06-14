@@ -17,19 +17,19 @@ const stackData = {
       },
       {
         name: 'Marketing & CRM',
-        items: ['ActiveCampaign', 'RDStation', 'Unbounce', 'Clint'],
+        items: ['ActiveCampaign', 'RDStation', 'Clint'],
       },
       {
-        name: 'Design & Frontend',
-        items: ['Framer', 'Loveable', 'Google Cloud', 'Supabase'],
+        name: 'Cloud & Infrastructure',
+        items: ['Google Cloud', 'Supabase', 'PostgreSQL', 'APIs'],
       },
       {
-        name: 'Banco de Dados & Backend',
-        items: ['PostgreSQL', 'SQL', 'APIs', 'Data Pipelines'],
+        name: 'Data & Analytics',
+        items: ['SQL', 'Data Pipelines', 'Web Scraping', 'Data Analysis'],
       },
       {
         name: 'Conceitos & Metodologias',
-        items: ['Marketing Operations', 'RevOps', 'Web Scraping', 'LP Development'],
+        items: ['Marketing Operations', 'RevOps', 'API Integration', 'Automation Infrastructure'],
       },
     ],
   },
@@ -47,19 +47,19 @@ const stackData = {
       },
       {
         name: 'Marketing & CRM',
-        items: ['ActiveCampaign', 'RDStation', 'Unbounce', 'Clint'],
+        items: ['ActiveCampaign', 'RDStation', 'Clint'],
       },
       {
-        name: 'Design & Frontend',
-        items: ['Framer', 'Loveable', 'Google Cloud', 'Supabase'],
+        name: 'Cloud & Infrastructure',
+        items: ['Google Cloud', 'Supabase', 'PostgreSQL', 'APIs'],
       },
       {
-        name: 'Database & Backend',
-        items: ['PostgreSQL', 'SQL', 'APIs', 'Data Pipelines'],
+        name: 'Data & Analytics',
+        items: ['SQL', 'Data Pipelines', 'Web Scraping', 'Data Analysis'],
       },
       {
         name: 'Concepts & Methodologies',
-        items: ['Marketing Operations', 'RevOps', 'Web Scraping', 'LP Development'],
+        items: ['Marketing Operations', 'RevOps', 'API Integration', 'Automation Infrastructure'],
       },
     ],
   },
