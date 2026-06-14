@@ -1,25 +1,33 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+import { useState } from 'react';
+import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
+import ProjectsSection from '@/components/ProjectsSection';
+import StackSection from '@/components/StackSection';
+import AboutSection from '@/components/AboutSection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 
 /**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+ * Portfolio Homepage - Bilingual (PT/EN)
+ * Design: Minimalist & High-End (Inspired by Conner Burton)
+ * Focus: MarTech/RevOps Engineer with HealthTech aspirations
  */
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  const [language, setLanguage] = useState<'pt' | 'en'>('en');
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
+    <div className="min-h-screen bg-background text-foreground">
+      <Header language={language} onLanguageChange={setLanguage} />
+      
+      <main className="pt-16 md:pt-20">
+        <HeroSection language={language} />
+        <ProjectsSection language={language} />
+        <StackSection language={language} />
+        <AboutSection language={language} />
+        <ContactSection language={language} />
       </main>
+
+      <Footer language={language} />
     </div>
   );
 }
