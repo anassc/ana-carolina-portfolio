@@ -64,17 +64,13 @@ export default function HeroSection({ language }: HeroSectionProps) {
             </div>
           </div>
 
-          {/* Right: Image Placeholder */}
+          {/* Right: Professional Photo */}
           <div className="relative">
-            {/* Image Placeholder */}
-            <div className="aspect-square rounded-lg bg-gradient-to-br from-secondary to-border overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">📸</div>
-                  <p className="text-sm">{language === 'pt' ? 'Foto profissional' : 'Professional photo'}</p>
-                </div>
-              </div>
-            </div>
+            <img
+              src="/ana-carolina-photo.jpg"
+              alt="Ana Carolina Costa"
+              className="w-full aspect-square object-cover rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </div>
