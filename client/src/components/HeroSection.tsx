@@ -55,7 +55,8 @@ export default function HeroSection({ language }: HeroSectionProps) {
                 <ArrowRight size={18} />
               </a>
               <a
-                href="#"
+                href="/ana-carolina-cv.pdf"
+                download="Ana-Carolina-Costa-CV.pdf"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-secondary transition-all duration-300 ease-out"
               >
                 <Download size={18} />
