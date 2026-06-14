@@ -11,11 +11,7 @@ const content = {
     description: 'Transforming complex workflows into scalable digital solutions. Specializing in MarTech automation, data integration, and RevOps infrastructure.',
     cta1: 'Ver Meu Trabalho',
     cta2: 'Download CV',
-    metrics: [
-      { label: 'Conexões', value: '425+' },
-      { label: 'Repositórios', value: '12+' },
-      { label: 'Seguidores', value: '6' },
-    ],
+
   },
   en: {
     headline: 'Marketing Operations & Automation Engineer',
@@ -23,11 +19,7 @@ const content = {
     description: 'Transforming complex workflows into scalable digital solutions. Specializing in MarTech automation, data integration, and RevOps infrastructure.',
     cta1: 'View My Work',
     cta2: 'Download Resume',
-    metrics: [
-      { label: 'Connections', value: '425+' },
-      { label: 'Repositories', value: '12+' },
-      { label: 'Followers', value: '6' },
-    ],
+
   },
 };
 
@@ -72,7 +64,7 @@ export default function HeroSection({ language }: HeroSectionProps) {
             </div>
           </div>
 
-          {/* Right: Image Placeholder + Metrics */}
+          {/* Right: Image Placeholder */}
           <div className="relative">
             {/* Image Placeholder */}
             <div className="aspect-square rounded-lg bg-gradient-to-br from-secondary to-border overflow-hidden relative">
@@ -81,22 +73,6 @@ export default function HeroSection({ language }: HeroSectionProps) {
                   <div className="text-6xl mb-4">📸</div>
                   <p className="text-sm">{language === 'pt' ? 'Foto profissional' : 'Professional photo'}</p>
                 </div>
-              </div>
-            </div>
-
-            {/* Metrics Card */}
-            <div className="absolute -bottom-8 -left-8 md:-bottom-12 md:-left-12 bg-background border border-border rounded-lg p-6 shadow-lg backdrop-blur-sm">
-              <div className="grid grid-cols-3 gap-6">
-                {data.metrics.map((metric) => (
-                  <div key={metric.label} className="text-center">
-                    <div className="text-2xl md:text-3xl font-bold text-foreground">
-                      {metric.value}
-                    </div>
-                    <div className="text-xs md:text-sm text-muted-foreground mt-1">
-                      {metric.label}
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
           </div>

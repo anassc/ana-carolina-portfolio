@@ -9,19 +9,27 @@ const stackData = {
     categories: [
       {
         name: 'Automação & Workflows',
-        items: ['n8n', 'Zapier', 'Make', 'Webhooks'],
+        items: ['n8n', 'Zapier', 'Make', 'ManyChat', 'Webhooks'],
       },
       {
         name: 'Linguagens de Programação',
-        items: ['Python', 'JavaScript/TypeScript', 'SQL', 'C'],
+        items: ['Python', 'JavaScript/TypeScript', 'SQL', 'C', 'Selenium'],
       },
       {
-        name: 'Plataformas & Ferramentas',
-        items: ['Google Cloud', 'Supabase', 'PostgreSQL', 'ActiveCampaign'],
+        name: 'Marketing & CRM',
+        items: ['ActiveCampaign', 'RDStation', 'Unbounce', 'Clint'],
+      },
+      {
+        name: 'Design & Frontend',
+        items: ['Framer', 'Loveable', 'Google Cloud', 'Supabase'],
+      },
+      {
+        name: 'Banco de Dados & Backend',
+        items: ['PostgreSQL', 'SQL', 'APIs', 'Data Pipelines'],
       },
       {
         name: 'Conceitos & Metodologias',
-        items: ['Marketing Operations', 'RevOps', 'Data Pipelines', 'API Integration'],
+        items: ['Marketing Operations', 'RevOps', 'Web Scraping', 'LP Development'],
       },
     ],
   },
@@ -31,19 +39,27 @@ const stackData = {
     categories: [
       {
         name: 'Automation & Workflows',
-        items: ['n8n', 'Zapier', 'Make', 'Webhooks'],
+        items: ['n8n', 'Zapier', 'Make', 'ManyChat', 'Webhooks'],
       },
       {
         name: 'Programming Languages',
-        items: ['Python', 'JavaScript/TypeScript', 'SQL', 'C'],
+        items: ['Python', 'JavaScript/TypeScript', 'SQL', 'C', 'Selenium'],
       },
       {
-        name: 'Platforms & Tools',
-        items: ['Google Cloud', 'Supabase', 'PostgreSQL', 'ActiveCampaign'],
+        name: 'Marketing & CRM',
+        items: ['ActiveCampaign', 'RDStation', 'Unbounce', 'Clint'],
+      },
+      {
+        name: 'Design & Frontend',
+        items: ['Framer', 'Loveable', 'Google Cloud', 'Supabase'],
+      },
+      {
+        name: 'Database & Backend',
+        items: ['PostgreSQL', 'SQL', 'APIs', 'Data Pipelines'],
       },
       {
         name: 'Concepts & Methodologies',
-        items: ['Marketing Operations', 'RevOps', 'Data Pipelines', 'API Integration'],
+        items: ['Marketing Operations', 'RevOps', 'Web Scraping', 'LP Development'],
       },
     ],
   },
