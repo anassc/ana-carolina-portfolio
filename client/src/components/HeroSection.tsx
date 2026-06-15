@@ -1,4 +1,4 @@
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface HeroSectionProps {
   language: 'pt' | 'en';
@@ -10,16 +10,12 @@ const content = {
     tagline: 'Analytical precision applied to digital operations and automation.',
     description: 'Transforming complex workflows into scalable digital solutions. Specializing in MarTech automation, data integration, and RevOps infrastructure.',
     cta1: 'Ver Meu Trabalho',
-    cta2: 'Download CV',
-
   },
   en: {
     headline: 'Marketing Operations & Automation Engineer',
     tagline: 'Analytical precision applied to digital operations and automation.',
     description: 'Transforming complex workflows into scalable digital solutions. Specializing in MarTech automation, data integration, and RevOps infrastructure.',
     cta1: 'View My Work',
-    cta2: 'Download Resume',
-
   },
 };
 
@@ -45,7 +41,7 @@ export default function HeroSection({ language }: HeroSectionProps) {
               {data.description}
             </p>
 
-            {/* CTAs */}
+            {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
                 href="#projects"
@@ -53,14 +49,6 @@ export default function HeroSection({ language }: HeroSectionProps) {
               >
                 {data.cta1}
                 <ArrowRight size={18} />
-              </a>
-              <a
-                href="/ana-carolina-cv.pdf"
-                download="Ana-Carolina-Costa-CV.pdf"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-secondary transition-all duration-300 ease-out"
-              >
-                <Download size={18} />
-                {data.cta2}
               </a>
             </div>
           </div>
